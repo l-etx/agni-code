@@ -1,30 +1,29 @@
 {
-  "name": "ecc",
-  "version": "2.0.0-rc.1",
-  "description": "Battle-tested Codex workflows — 207 shared ECC skills, production-ready MCP configs, and selective-install-aligned conventions for TDD, security scanning, code review, and autonomous development.",
+  "name": "agni-code",
+  "version": "1.0.0",
+  "description": "Curated Codex workflows — focused skills and MCP configs for TDD, security scanning, code review, and network workflows.",
   "author": {
-    "name": "Affaan Mustafa",
-    "email": "me@affaanmustafa.com",
-    "url": "https://x.com/affaanmustafa"
+    "name": "lteixeira93",
+    "email": "lteixeira93@outlook.com"
   },
-  "homepage": "https://ecc.tools",
-  "repository": "https://github.com/affaan-m/everything-claude-code",
+  "homepage": "https://github.com/lteixeira93/agni-code",
+  "repository": "https://github.com/lteixeira93/agni-code",
   "license": "MIT",
   "keywords": ["codex", "agents", "skills", "tdd", "code-review", "security", "workflow", "automation"],
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Everything Claude Code",
-    "shortDescription": "207 battle-tested ECC skills plus MCP configs for TDD, security, code review, and autonomous development.",
-    "longDescription": "Everything Claude Code (ECC) is a community-maintained collection of Codex-ready skills and MCP configs evolved over 10+ months of intensive daily use. It covers TDD workflows, security scanning, code review, architecture decisions, operator workflows, and more — all in one installable plugin.",
-    "developerName": "Affaan Mustafa",
+    "displayName": "Agni Code",
+    "shortDescription": "Curated skills and MCP configs for TDD, security, code review, and network workflows.",
+    "longDescription": "agni-code is a curated Claude Code plugin with focused agents, skills, commands, and rules for production-ready development workflows covering TDD, security scanning, code review, Python, C++, and network engineering.",
+    "developerName": "lteixeira93",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://ecc.tools",
+    "websiteURL": "https://github.com/lteixeira93/agni-code",
     "defaultPrompt": [
       "Use the tdd-workflow skill to write tests before implementation.",
       "Use the security-review skill to scan for OWASP Top 10 vulnerabilities.",
-      "Use the verification-loop skill to verify correctness before shipping changes."
+      "Use the search-first skill to research before coding."
     ]
   }
 }

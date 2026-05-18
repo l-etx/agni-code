@@ -1,12 +1,12 @@
 {
-  "name": "ecc",
+  "name": "agni-code",
   "interface": {
-    "displayName": "Everything Claude Code"
+    "displayName": "Agni Code"
   },
   "plugins": [
     {
-      "name": "ecc",
-      "version": "2.0.0-rc.1",
+      "name": "agni-code",
+      "version": "1.0.0",
       "source": {
         "source": "local",
         "path": "./"

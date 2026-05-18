@@ -11,9 +11,9 @@ const {
 
 const SCHEMA_VERSION = 'ecc.platform-audit.v1';
 const DEFAULT_REPOS = Object.freeze([
-  'affaan-m/everything-claude-code',
-  'affaan-m/agentshield',
-  'affaan-m/JARVIS',
+  'lteixeira93/agni-code',
+  'lteixeira93/agentshield',
+  'lteixeira93/JARVIS',
   'ECC-Tools/ECC-Tools',
   'ECC-Tools/ECC-website',
 ]);

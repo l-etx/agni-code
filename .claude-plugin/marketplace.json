@@ -1,24 +1,24 @@
 {
-  "name": "ecc",
+  "name": "agni-code",
   "owner": {
-    "name": "Affaan Mustafa",
-    "email": "me@affaanmustafa.com"
+    "name": "lteixeira93",
+    "email": "lteixeira93@outlook.com"
   },
   "metadata": {
-    "description": "Battle-tested Claude Code configurations from an Anthropic hackathon winner"
+    "description": "Curated Claude Code configuration for production-ready development workflows"
   },
   "plugins": [
     {
-      "name": "ecc",
+      "name": "agni-code",
       "source": "./",
-      "description": "The most comprehensive Claude Code plugin — 60 agents, 232 skills, 75 legacy command shims, selective install profiles, and production-ready hooks for TDD, security scanning, code review, and continuous learning",
-      "version": "2.0.0-rc.1",
+      "description": "Curated Claude Code plugin — 25 agents, 34 skills, and focused commands for TDD, security, code review, and network workflows",
+      "version": "1.0.0",
       "author": {
-        "name": "Affaan Mustafa",
-        "email": "me@affaanmustafa.com"
+        "name": "lteixeira93",
+        "email": "lteixeira93@outlook.com"
       },
-      "homepage": "https://ecc.tools",
-      "repository": "https://github.com/affaan-m/everything-claude-code",
+      "homepage": "https://github.com/lteixeira93/agni-code",
+      "repository": "https://github.com/lteixeira93/agni-code",
       "license": "MIT",
       "keywords": [
         "agents",

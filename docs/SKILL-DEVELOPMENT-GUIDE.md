@@ -1,6 +1,6 @@
 # Skill Development Guide
 
-A comprehensive guide to creating effective skills for Everything Claude Code (ECC).
+A comprehensive guide to creating effective skills for agni-code (agni-code).
 
 ## Table of Contents
 
@@ -69,7 +69,7 @@ skills/
 ---
 name: skill-name
 description: Brief description shown in skill list and used for auto-activation
-origin: ECC
+origin: agni-code
 ---
 
 # Skill Title
@@ -110,7 +110,7 @@ Link to complementary skills.
 |-------|----------|-------------|
 | `name` | Yes | Lowercase, hyphenated identifier (e.g., `react-patterns`) |
 | `description` | Yes | One-line description for skill list and auto-activation |
-| `origin` | No | Source identifier (e.g., `ECC`, `community`, project name) |
+| `origin` | No | Source identifier (e.g., `agni-code`, `community`, project name) |
 | `tags` | No | Array of tags for categorization |
 | `version` | No | Skill version for tracking updates |
 
@@ -632,8 +632,8 @@ go build ./examples/...
 ### 1. Fork and Clone
 
 ```bash
-gh repo fork affaan-m/everything-claude-code --clone
-cd everything-claude-code
+gh repo fork lteixeira93/agni-code --clone
+cd agni-code
 ```
 
 ### 2. Create Branch
@@ -712,7 +712,7 @@ How I tested this skill locally.
 ---
 name: rust-patterns
 description: Rust idioms, ownership patterns, and best practices for safe, idiomatic code.
-origin: ECC
+origin: agni-code
 ---
 
 # Rust Patterns
@@ -773,7 +773,7 @@ pub type AppResult<T> = Result<T, AppError>;
 ---
 name: fastapi-patterns
 description: FastAPI patterns for routing, dependency injection, validation, and async operations.
-origin: ECC
+origin: agni-code
 ---
 
 # FastAPI Patterns
@@ -834,7 +834,7 @@ async def get_user(
 ---
 name: refactoring-workflow
 description: Systematic refactoring workflow for improving code quality without changing behavior.
-origin: ECC
+origin: agni-code
 ---
 
 # Refactoring Workflow

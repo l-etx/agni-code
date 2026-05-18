@@ -670,7 +670,7 @@ function buildRequirements(rootDir, platformReport) {
       includesAll(namingMatrix, ['Claude plugin', 'Codex plugin', 'npm package', 'Publication Paths'])
         && includesAll(releasePublicationChecklist, [
           'Everything Claude Code (ECC)',
-          'ecc-universal',
+          'agni-code',
           'claude plugin tag .claude-plugin --dry-run',
           'codex plugin marketplace add',
           'Do not rename the repo or package until rc.1 is published'

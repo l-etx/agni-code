@@ -6,7 +6,7 @@ readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
-    {name = "Affaan Mustafa", email = "affaan@example.com"}
+    {name = "lteixeira93", email = "affaan@example.com"}
 ]
 keywords = ["llm", "openai", "anthropic", "ollama", "ai"]
 classifiers = [
@@ -34,8 +34,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/affaan-m/everything-claude-code"
-Repository = "https://github.com/affaan-m/everything-claude-code"
+Homepage = "https://github.com/lteixeira93/agni-code"
+Repository = "https://github.com/lteixeira93/agni-code"
 
 [project.scripts]
 llm-select = "llm.cli.selector:main"

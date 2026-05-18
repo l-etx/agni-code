@@ -14,7 +14,7 @@ If you discover a security vulnerability in ECC, please report it responsibly.
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-Instead, email **<security@ecc.tools>** with:
+Instead, email **<security@github.com/lteixeira93/agni-code>** with:
 
 - A description of the vulnerability
 - Steps to reproduce
@@ -43,7 +43,7 @@ This policy covers:
 - Hook scripts that execute on your machine
 - Install/uninstall/repair lifecycle scripts
 - MCP configurations shipped with ECC
-- The AgentShield security scanner ([github.com/affaan-m/agentshield](https://github.com/affaan-m/agentshield))
+- The AgentShield security scanner ([github.com/lteixeira93/agentshield](https://github.com/lteixeira93/agentshield))
 
 ## Operational Guidance
 

@@ -1,13 +1,12 @@
 {
-  "name": "ecc",
-  "version": "2.0.0-rc.1",
-  "description": "Battle-tested Claude Code plugin for engineering teams — 60 agents, 232 skills, 75 legacy command shims, production-ready hooks, and selective install workflows evolved through continuous real-world use",
+  "name": "agni-code",
+  "version": "1.0.0",
+  "description": "Curated Claude Code plugin — 25 agents, 34 skills, and focused commands for TDD, security, code review, and network workflows",
   "author": {
-    "name": "Affaan Mustafa",
-    "url": "https://x.com/affaanmustafa"
+    "name": "lteixeira93"
   },
-  "homepage": "https://ecc.tools",
-  "repository": "https://github.com/affaan-m/everything-claude-code",
+  "homepage": "https://github.com/lteixeira93/agni-code",
+  "repository": "https://github.com/lteixeira93/agni-code",
   "license": "MIT",
   "keywords": [
     "claude-code",

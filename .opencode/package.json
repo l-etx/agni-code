@@ -1,7 +1,7 @@
 {
-  "name": "ecc-universal",
-  "version": "2.0.0-rc.1",
-  "description": "Everything Claude Code (ECC) plugin for OpenCode - agents, commands, hooks, and skills",
+  "name": "agni-code",
+  "version": "1.0.0",
+  "description": "agni-code plugin for OpenCode - agents, commands, hooks, and skills",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
@@ -37,22 +37,22 @@
     "plugin",
     "claude-code",
     "agents",
-    "ecc",
+    "agni-code",
     "ai-coding",
     "developer-tools",
     "hooks",
     "automation"
   ],
-  "author": "affaan-m",
+  "author": "lteixeira93",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/affaan-m/everything-claude-code.git"
+    "url": "git+https://github.com/lteixeira93/everything-claude-code.git"
   },
   "bugs": {
-    "url": "https://github.com/affaan-m/everything-claude-code/issues"
+    "url": "https://github.com/lteixeira93/everything-claude-code/issues"
   },
-  "homepage": "https://github.com/affaan-m/everything-claude-code#readme",
+  "homepage": "https://github.com/lteixeira93/everything-claude-code#readme",
   "publishConfig": {
     "access": "public"
   },

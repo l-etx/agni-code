@@ -3,13 +3,13 @@
 > WARNING: This README is specific to OpenCode usage.
 > If you installed ECC via npm (e.g. `npm install opencode-ecc`), refer to the root README instead.
 
-Everything Claude Code (ECC) plugin for OpenCode - agents, commands, hooks, and skills.
+agni-code (ECC) plugin for OpenCode - agents, commands, hooks, and skills.
 
 ## Installation
 
 ## Installation Overview
 
-There are two ways to use Everything Claude Code (ECC):
+There are two ways to use agni-code (ECC):
 
 1. **npm package (recommended for most users)**
    Install via npm/bun/yarn and use the `ecc-install` CLI to set up rules and agents.
@@ -22,14 +22,14 @@ Choose the method that matches your workflow below.
 ### Option 1: npm Package
 
 ```bash
-npm install ecc-universal
+npm install agni-code
 ```
 
 Add to your `opencode.json`:
 
 ```json
 {
-  "plugin": ["ecc-universal"]
+  "plugin": ["agni-code"]
 }
 ```
 
@@ -52,8 +52,8 @@ npx ecc-install typescript
 Clone and run OpenCode in the repository:
 
 ```bash
-git clone https://github.com/affaan-m/everything-claude-code
-cd everything-claude-code
+git clone https://github.com/lteixeira93/agni-code
+cd agni-code
 opencode
 ```
 

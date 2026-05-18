@@ -1,4 +1,4 @@
-# Contributing to Everything Claude Code
+# Contributing to agni-code
 
 Thanks for wanting to contribute! This repo is a community resource for Claude Code users.
 
@@ -52,8 +52,8 @@ Slash commands that invoke useful workflows:
 
 ```bash
 # 1. Fork and clone
-gh repo fork affaan-m/everything-claude-code --clone
-cd everything-claude-code
+gh repo fork lteixeira93/agni-code --clone
+cd agni-code
 
 # 2. Create a branch
 git checkout -b feat/my-contribution
@@ -499,7 +499,7 @@ How you tested this.
 
 ## Questions?
 
-- **Issues:** [github.com/affaan-m/everything-claude-code/issues](https://github.com/affaan-m/everything-claude-code/issues)
+- **Issues:** [github.com/lteixeira93/agni-code/issues](https://github.com/lteixeira93/agni-code/issues)
 - **X/Twitter:** [@affaanmustafa](https://x.com/affaanmustafa)
 
 ---
