@@ -43,12 +43,20 @@ The project is organized into several core components:
 ## Key Commands
 
 - `/plan` - Implementation planning
-- `/python-review` - Python code review
+- `/plan-prd` - Generate PRD then hand off to `/plan`
 - `/code-review` - Quality review
-- `/security-scan` - Security scanning
+- `/python-review` - Python code review
 - `/cpp-review` - C++ code review
+- `/fastapi-review` - FastAPI endpoint review
+- `/review-pr` - Review a pull request
+- `/security-scan` - Security scanning
 - `/refactor-clean` - Refactoring workflow
+- `/update-docs` - Update documentation
+- `/pr` - Pull request workflow
+- `/cpp-build` - C++ build fix workflow
+- `/cpp-test` - C++ test workflow
 - `/loop-start` / `/loop-status` - Agent loop management
+- `/hookify` / `/hookify-configure` / `/hookify-help` / `/hookify-list` - Hook management
 
 ## Development Notes
 

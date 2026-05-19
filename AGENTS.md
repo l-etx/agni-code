@@ -51,21 +51,78 @@ This is a **curated Claude Code plugin** providing 25 specialized agents, 34 ski
 - Use **refactor-cleaner** when removing dead code
 - Use **network-troubleshooter** for connectivity or latency investigations
 
-## Key Skills
+## Available Skills
 
 Invoke with the skill name in your prompt or via `/skill <name>`:
 
-- `tdd-workflow` — TDD cycle
-- `security-scan` — Security scanning
+**Development**
+- `tdd-workflow` — TDD red-green-refactor cycle
+- `coding-standards` — Project code standards
 - `python-patterns` — Python best practices
+- `python-testing` — Python test patterns
+- `cpp-testing` — C++ test patterns
 - `search-first` — Research before coding
-- `coding-standards` — Project standards
+
+**Security**
+- `security-scan` — Security scanning
+- `security-review` — Security code review
+- `security-bounty-hunter` — Bug bounty hunting patterns
+
+**Frontend**
+- `frontend-patterns` — Frontend architecture patterns
+- `frontend-slides` — Slide/presentation generation
+- `liquid-glass-design` — Liquid glass UI design
+- `ui-demo` — UI demo patterns
+- `ui-to-vue` — UI-to-Vue conversion
+- `click-path-audit` — Click path accessibility audit
+
+**Network**
+- `network-bgp-diagnostics` — BGP diagnostics
+- `network-config-validation` — Network config validation
+- `network-interface-health` — Interface health checks
+
+**Data & ML**
+- `pytorch-patterns` — PyTorch best practices
+- `mysql-patterns` — MySQL query patterns
+- `regex-vs-llm-structured-text` — Regex vs LLM text extraction
+- `data-scraper-agent` — Data scraping agent patterns
+
+**Research & Docs**
+- `documentation-lookup` — Documentation search
+- `market-research` — Market research workflows
+- `scientific-thinking-literature-review` — Literature review process
+- `scientific-thinking-scholar-evaluation` — Scholar evaluation
+- `repo-scan` — Repository scanning
+- `article-writing` — Technical article writing
+
+**Infrastructure & Tooling**
+- `mcp-server-patterns` — MCP server development patterns
+- `hookify-rules` — Hook configuration rules
+- `agentic-os` — Agentic OS patterns
+- `token-budget-advisor` — Token budget management
+
+**Strategy**
+- `product-capability` — Product capability analysis
+- `strategic-compact` — Strategic planning compact
 
 ## Key Commands
 
 - `/plan` — Implementation planning
-- `/python-review` — Python review
-- `/code-review` — General review
+- `/plan-prd` — Generate PRD then hand off to `/plan`
+- `/code-review` — General code quality review
+- `/python-review` — Python-specific review
+- `/cpp-review` — C++ code review
+- `/fastapi-review` — FastAPI endpoint review
+- `/review-pr` — Review a pull request
 - `/security-scan` — Security scan
-- `/cpp-review` — C++ review
-- `/refactor-clean` — Refactoring
+- `/refactor-clean` — Safe refactoring and dead code removal
+- `/update-docs` — Update documentation
+- `/pr` — Pull request workflow
+- `/cpp-build` — C++ build fix workflow
+- `/cpp-test` — C++ test workflow
+- `/loop-start` — Start an agent loop
+- `/loop-status` — Check loop status
+- `/hookify` — Configure hooks
+- `/hookify-configure` — Detailed hook configuration
+- `/hookify-help` — Hook help
+- `/hookify-list` — List configured hooks
